@@ -1,0 +1,13 @@
+prefix=C:/Samrtbridge/Task/Pet/pet/Library
+exec_prefix=C:/Samrtbridge/Task/Pet/pet/Library
+libdir=C:/Samrtbridge/Task/Pet/pet/Library/lib
+sharedlibdir=C:/Samrtbridge/Task/Pet/pet/Library/lib
+includedir=C:/Samrtbridge/Task/Pet/pet/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
